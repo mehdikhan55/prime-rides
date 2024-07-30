@@ -59,7 +59,7 @@
 }
 
 .hero__image-overlay {
-  @apply absolute xl:-top-[1rem] xl:-right-[60%] max-2xl:scale-50 scale-125 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full  xl:h-[80%] h-[590px] overflow-hidden;
+  @apply absolute xl:-top-[1rem] xl:-right-[60%] lg:-right-[80%] max-2xl:scale-50 scale-125 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full  xl:h-[80%] h-[590px] overflow-hidden max-md:h-[1000px] max-sm:h-[700px];
 }
 /* END: Hero styles */
 
